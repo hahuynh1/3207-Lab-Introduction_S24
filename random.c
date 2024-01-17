@@ -1,2 +1,5 @@
-// this is my file 
+#include <stdlib.h>
 
+char randchar() {
+    return (char)('A' + rand() % 26);
+}
